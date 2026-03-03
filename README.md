@@ -1,16 +1,111 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This repository contains the source code for my personal portfolio
+website.\
+The application is designed to professionally present my technical
+skills, projects, and development experience in a clean, responsive, and
+user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+------------------------------------------------------------------------
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   Fully responsive modern design
+-   Structured project showcase section
+-   Contact form integration
+-   Modular and maintainable codebase
+-   Optimized development workflow using Vite
 
-## Expanding the ESLint configuration
+------------------------------------------------------------------------
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technology Stack
+
+**Frontend** - HTML5 - CSS3 / Tailwind CSS - JavaScript (ES6+) - Vite
+
+**Backend (if applicable)** - Node.js - Express.js
+
+------------------------------------------------------------------------
+
+## Project Structure
+
+    Personal_Portfolio/
+    │
+    ├── backend/                # Backend services and APIs
+    ├── public/                 # Static assets
+    ├── src/                    # Frontend source files
+    ├── projects/               # Individual project modules
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── README.md
+
+------------------------------------------------------------------------
+
+## Getting Started
+
+### 1. Clone the Repository
+
+``` bash
+git clone https://github.com/Himanshu-1950/My_Porfolio.git
+```
+
+### 2. Navigate to the Project Directory
+
+``` bash
+cd My_Porfolio
+```
+
+### 3. Install Dependencies
+
+``` bash
+npm install
+```
+
+### 4. Run the Development Server
+
+``` bash
+npm run dev
+```
+
+The application will be available at:
+
+    http://localhost:5173
+
+------------------------------------------------------------------------
+
+## Production Build
+
+To generate an optimized production build:
+
+``` bash
+npm run build
+```
+
+To preview the production build locally:
+
+``` bash
+npm run preview
+```
+
+------------------------------------------------------------------------
+
+## Deployment
+
+The project can be deployed using platforms such as: - Vercel -
+Netlify - GitHub Pages - Any Node.js-supported hosting service
+
+------------------------------------------------------------------------
+
+## License
+
+This project is open-source and available for educational and
+professional use.
+
+------------------------------------------------------------------------
+
+## Contact
+
+For collaboration opportunities or inquiries, please reach out through
+the contact section of the website.
